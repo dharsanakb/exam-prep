@@ -1,4 +1,4 @@
-# 📚 Exam Prep Bot
+# Exam Prep Bot
 
 A RAG-based study assistant that lets you upload your own notes or slides and ask it to explain any concept from them. It only uses your material — no hallucinated answers from general knowledge.
 
@@ -146,7 +146,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 3. Type any concept from your notes in the text box
 4. Click **Explain**
 5. Read the explanation — source file is shown below the answer
-6. Use the **🔍 Debug** expander to see which chunks were retrieved if the answer seems off
+6. Use the ** Debug** expander to see which chunks were retrieved if the answer seems off
 
 ---
 
@@ -154,7 +154,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 If you update your notes file or the explanation quality seems wrong, clear the index and re-upload:
 
-- Use the **🗑️ Clear index and re-upload** button in the sidebar, or
+- Use the ** Clear index and re-upload** button in the sidebar, or
 - Delete the `chroma_db/` folder manually and restart the app
 
 ---
